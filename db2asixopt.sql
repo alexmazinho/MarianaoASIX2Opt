@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: localhost
--- Temps de generació: 18-10-2025 a les 12:44:53
+-- Temps de generació: 19-10-2025 a les 18:16:41
 -- Versió del servidor: 10.3.31-MariaDB-0+deb10u1
 -- Versió de PHP: 7.4.33
 
@@ -20,6 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Base de dades: `db2asixopt`
 --
+CREATE DATABASE IF NOT EXISTS `db2asixopt` DEFAULT CHARACTER SET utf8 COLLATE utf8_spanish_ci;
+USE `db2asixopt`;
 
 -- --------------------------------------------------------
 
