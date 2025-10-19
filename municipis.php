@@ -14,7 +14,7 @@ function openCon()
     }
     catch(PDOException $e)
     {
-        return "";
+        return $e->getMessage();
     }
     return $pdo;
 }
@@ -80,7 +80,7 @@ if ($pdo instanceof PDO)
 }
 else
 {
-    echo "<div class='alert alert-danger' role='alert'>Error a la connexió</div>";
+    echo "<div class='alert alert-danger' role='alert'>Error a la connexió ".$pdo. "</div>";
 }
 ?>
     </div>
